@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['ripe strawberry', 'damaged strawberry', 'rotten strawberry', 'green strawberry']
+
+roboflow:
+  workspace: university-projects-j2r3v
+  project: data-2-v4mas
+  version: 26
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-projects-j2r3v/data-2-v4mas/dataset/26
